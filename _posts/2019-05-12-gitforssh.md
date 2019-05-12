@@ -73,4 +73,5 @@ cat id_rsa.pub >> authorized_keys
 Job에서 Git 설정이 완료되었다면 아무 에러 메세지 없이 완료 되는지 테스트 해보자.
 
 ![](http://project.toki-labs.com:83/wp-content/uploads/2017/10/14-1-1.png)
+
 Jenkins에서 정상적으로 체크아웃이 완료 되었다. 완료이다.
