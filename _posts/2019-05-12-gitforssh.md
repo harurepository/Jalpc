@@ -10,8 +10,7 @@ Git에 비밀번호 없이 접속하기 위해서는 SSH Key를 만들어 Git �
 ---
 ```console
 ssh-keygen -t rsa
-```
----
+```---
 위 명령어를 입력하게 되면
 
 Enter file in which to save the key (/Users/username/.ssh/id_rsa):
@@ -22,9 +21,14 @@ Enter passphrase (empty for no passphrase):
 
 비밀번호를 입력해달라는것인데 권장은 10~30문자인데, 자동로그인을 하려면 그냥 엔터를 입력하여 생략한다.
 
+---
+```console
 Enter same passphrase again:
+```
+---
 
 한번더 같은 비밀번호를 입력해달라는 이야기이니 엔터로 다음을 진행하자.
+
 ---
 ```console
 +—[RSA 2048]—-+
@@ -63,7 +67,6 @@ authorized_keys  id_rsa.pub  known_hosts
 cat id_rsa.pub >> authorized_keys
 ```
 ---
-
 위 명령어를 입력하여 승인된 키로 보내어진 공개키를 입력한다. 아무 메세지 없이 다음 명령대기줄이 생긴다면 입력 완료이다.
 이제 Git에서 아무 입력없이 되는지 진행을 하면 완료이다.
 이 포스트는 Jenkins를 위한 설정이므로 Jenkins가 아무 입력없이 잘 진행되는지 테스트를 하면 완료이다.
