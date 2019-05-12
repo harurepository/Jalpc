@@ -10,14 +10,23 @@ Git에 비밀번호 없이 접속하기 위해서는 SSH Key를 만들어 Git �
 ---
 ```console
 ssh-keygen -t rsa
-```---
+```
+---
 위 명령어를 입력하게 되면
 
+---
+```console
 Enter file in which to save the key (/Users/username/.ssh/id_rsa):
+```
+---
 
 라고 나오게 된다. 키를 저장할 경로를 입력해달라는 이야기인데 그냥 엔터를 입력하면 괄호 안에 위치한곳에 만들겠다는 이야기다. 그냥 엔터치자.
 
+---
+```console
 Enter passphrase (empty for no passphrase):
+```
+---
 
 비밀번호를 입력해달라는것인데 권장은 10~30문자인데, 자동로그인을 하려면 그냥 엔터를 입력하여 생략한다.
 
