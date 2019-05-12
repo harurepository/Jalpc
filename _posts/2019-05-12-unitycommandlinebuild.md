@@ -1,5 +1,5 @@
 ---
-title: "Unity Monobehaviour Lifecycle"
+title: "Unity Command Line Build"
 date: 2019-05-12 20:49:00 +0900
 categori: Unity
 ---
