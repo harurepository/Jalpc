@@ -1,0 +1,21 @@
+---
+title: "Unity Command Line Build"
+date: 2019-05-12 21:49:00 +0900
+categori: php
+---
+
+아래의 명령어를 입력
+
+---
+```console
+user@group:~$ sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-enabled/phpmyadmin.conf
+
+user@group:~$ sudo service apache2 restart
+
+user@group:~$ pidof /usr/sbin/apache2
+
+user@group:~$ sudo kill -9 <pid>
+#Test
+user@group:~$ sudo servcie apache2 start
+```
+---
